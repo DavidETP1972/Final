@@ -1,10 +1,7 @@
 body {
-    font-family: Verdana, Tahoma, sans-serif;
-}
-
-.navbar {
-    background-color: whitesmoke;
-}
+    font-family: sans-serif, Verdana, Tahoma;
+    text-transform: capitalize;
+  }
 
 nav ul li a {
     padding-right: 15px !important;
@@ -22,4 +19,96 @@ nav ul li a:hover {
 }
 .carrusel {
     color: black;
+}
+
+.footer{
+  background-color: #24262B;
+  padding: 80px 0;
+}
+ 
+.footer-row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ 
+.footer-links{
+  width: 25%;
+  padding: 0 15px;
+}
+ 
+.footer-links h4{
+  font-size: 20px;
+  color: #FFFFFF;
+  margin-bottom: 25px;
+  font-weight: 500;
+  border-bottom: 2px solid #00c3ff;
+  padding-bottom: 10px;
+  display: inline-block
+}
+ 
+.footer-links ul li a{
+  font-size: 18px;
+  text-decoration: none;
+  color: #888888;
+  display: block;
+  margin-bottom: 15px;
+  transition: all .3s ease;
+}
+ 
+.footer-links ul li a:hover{
+  color: #FFFFFF;
+  padding-left: 6px;
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+ 
+
+.texto {
+    text-align: center;
+}
+ 
+.texto1 {
+    margin-left: 20px;
+    text-align: center;
+}
+ 
+.rectangulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+}
+ 
+.img-rectangulo {
+    width: 20%;
+    height: auto;
+    display: block;
+}
+ 
+.texto2 {
+    margin-left: 20px;
+}
+ 
+.container1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+ 
+.boton {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #faf615;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.contenedores {
+    display: flex;
 }

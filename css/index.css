@@ -1,3 +1,4 @@
+/*VI09539202*/
 body {
     font-family: sans-serif, Verdana, Tahoma;
     text-transform: capitalize;
@@ -60,13 +61,13 @@ nav ul li a:hover {
   padding-left: 6px;
 }
 
+/*VI47453483*/
 .contenedor {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
 }
  
-
 .texto {
     text-align: center;
 }
